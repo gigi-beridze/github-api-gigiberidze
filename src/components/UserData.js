@@ -50,7 +50,6 @@ class UserData extends React.Component {
             .catch(function (error) {
                 console.log(error);
             });
-        }, 500);
     }
     // infinite scrolling
     fetchMoreData = () => {
