@@ -25,7 +25,7 @@ class App extends Component {
     //   console.log('gigi123')
     // }
     setTimeout( () => {
-      fetch(`http://api.github.com/users/${name}`)
+      fetch(`https://api.github.com/users/${name}`)
       .then(response => response.json())
       .then(data => {
         this.setState({
