@@ -50,7 +50,7 @@ class App extends Component {
           <div id='search-bar'>
             <input type="text" placeholder='enter user name' ref="name" />
             <button className='searchButton' onClick={this.getUser}>
-              <span>submighgfhgft</span>
+              <span>submit</span>
             </button>
           </div>
         </div>
