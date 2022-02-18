@@ -33,7 +33,7 @@ class App extends Component {
           loading: false
         });
       })
-    },100)
+    },1)
   }
   render() {   
     const name = this.state.user.name 
