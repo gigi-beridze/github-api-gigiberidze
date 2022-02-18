@@ -81,7 +81,7 @@ class UserData extends React.Component {
 
     render() {
         if (this.state.loading === true) {
-            return <div className='user-data-loading'><Loading /></div>
+            return <div className='user-data-loading'></div>
         } else if (this.state.display === false) {
             return <div></div>
         }
@@ -98,7 +98,7 @@ class UserData extends React.Component {
                     dataLength={this.state.data.length}
                     next={this.fetchMoreData}
                     hasMore={this.state.hasMore}
-                    loader={<div className='user-data-scrolling-loading'><Loading /></div>}
+                    loader={<div className='user-data-scrolling-loading'></div>}
                 >
                     {this.state.loading === true
                         ? <Loading />
