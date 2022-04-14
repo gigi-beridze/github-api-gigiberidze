@@ -1,5 +1,6 @@
 !!!!!! First install react script in terminal!!!!!!!! - - - npm i react-script
 
+you can see vercel - https://gigiberidze.vercel.app/
 
 # Getting Started with Create React App
 
