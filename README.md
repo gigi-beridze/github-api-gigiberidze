@@ -2,7 +2,7 @@
 Github api using react
 ```
 View Demo👇: <br />
-https://profound-buttercream-741900.netlify.app/ <br />
+https://gigiberidze.vercel.app/ <br />
 View my Linkedin👇: <br />
 https://www.linkedin.com/in/gigi-beridze-367126214/ <br />
 
